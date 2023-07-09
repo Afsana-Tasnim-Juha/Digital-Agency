@@ -27,4 +27,34 @@
     background-position: center;
     background-image: no-repeat;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.primary {
+    color: brown;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: brown;
+    color: white;
 }
