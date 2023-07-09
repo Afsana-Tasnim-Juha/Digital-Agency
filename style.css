@@ -1,0 +1,30 @@
+/*header style*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: white;
+    font-size: 15px;
+    font-size: initial;
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url(./asset/image/background.jpg);
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+}
